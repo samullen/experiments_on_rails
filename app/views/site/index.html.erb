@@ -1,0 +1,9 @@
+<%= @landing_page.products.each do |product| %>
+  <div class="search_result-thumbnail">
+    <%= image_tag product.image_url(:thumbnail) %>
+    <ul>
+      <li><%= product.name %></li>
+      <li><%= product.price %></li>
+    </ul>
+  </div>
+<% end %>
