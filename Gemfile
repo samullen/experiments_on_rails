@@ -37,6 +37,7 @@ group :development, :test do
   # gem 'web-console', '~> 2.0'
 
   gem "spring", "~> 1.3.2"
+  gem "guard", "~> 2.12.1"
   gem "guard-minitest", "~> 2.4.4"
   gem "quiet_assets", "~> 1.1.0"
 end
