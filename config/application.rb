@@ -22,5 +22,9 @@ module ExperimentsOnRails
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    config.generators do |g|
+      g.test_framework :mini_test, :spec => true, :fixture => true
+    end
   end
 end
