@@ -1,0 +1,30 @@
+a:
+  name: Thing a
+  price: 10.95
+b:
+  name: Thing b
+  price: 1.95
+c:
+  name: Thing c
+  price: 2.95
+d:
+  name: Thing d
+  price: 3.95
+e:
+  name: Thing e
+  price: 4.95
+f:
+  name: Thing f
+  price: 5.95
+g:
+  name: Thing g
+  price: 6.95
+h:
+  name: Thing h
+  price: 7.95
+i:
+  name: Thing i
+  price: 8.95
+j:
+  name: Thing j
+  price: 9.95
