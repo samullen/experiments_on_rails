@@ -1,5 +1,5 @@
 class LandingPage
-  def products
-    Product.from_collection(DB::Product.limit 10)
+  def promoted_products
+    Product.from_collection(Catalog.new.promoted_products)
   end
 end

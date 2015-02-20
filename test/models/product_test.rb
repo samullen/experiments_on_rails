@@ -1,6 +1,6 @@
 require "test_helper"
 
-class ProductTest < ActiveSupport::TestCase
+describe Product do
   describe "::from_collection" do
     it "returns a collection of Products given a collection of objects" do
       products = Product.from_collection([Object.new, Object.new, Object.new])

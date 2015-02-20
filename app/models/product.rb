@@ -1,12 +1,12 @@
 class Product
   extend Forwardable
 
-  def_delegators :@db_product, :name, :price
+  def_delegators :@stored_product, :name, :price
 
-  attr_accessor :db_product
+  attr_accessor :stored_product
 
-  def initialize(db_product)
-    @db_product = db_product
+  def initialize(stored_product)
+    @stored_product = stored_product
   end
 
   def self.from_collection(collection)
