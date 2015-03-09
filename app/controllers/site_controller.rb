@@ -1,5 +1,5 @@
 class SiteController < ApplicationController
   def index
-    @landing_page = LandingPage.new
+    @root_page = RootPage.new
   end
 end
