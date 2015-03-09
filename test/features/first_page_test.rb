@@ -5,7 +5,7 @@ feature "Visiting the site through the first page" do
     visit root_path
 
     within "#products-promoted" do
-      page.all("div.search_result-thumbnail").size.must_equal 10
+      page.all("div.product-thumbnail").size.must_equal 10
     end
   end
 end
