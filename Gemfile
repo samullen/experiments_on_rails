@@ -43,7 +43,7 @@ group :development, :test do
 end
 
 group :development, :test do
-  gem "database_cleaner", "~> 1.4.0"
+  # gem "database_cleaner", "~> 1.4.0"
   gem "minitest-rails-capybara", "~> 2.1.1"
   gem "factory_girl_rails", "~> 4.5.0"
   gem "pry-rails", "~> 0.3.3"
