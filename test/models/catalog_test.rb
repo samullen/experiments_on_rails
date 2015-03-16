@@ -20,7 +20,7 @@ class CatalogTest < ActiveSupport::TestCase
 
     it "sets products to all DB::Product if no collection is provided" do
       catalog = Catalog.new
-      catalog.products.must_be_instance_of DB::Product::ActiveRecord_Relation
+      catalog.stored_products.must_be_instance_of DB::Product::ActiveRecord_Relation
     end
   end
 
