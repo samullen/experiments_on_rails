@@ -1,5 +1,6 @@
-<%= @landing_page.promoted_products.each do |product| %>
-  <div class="search_result-thumbnail">
+<div id="products-promoted">
+<%= @root_page.promoted_products.each do |product| %>
+  <div class="product-thumbnail">
     <%#= image_tag product.image_url(:thumbnail) %>
     <ul>
       <li><%= product.name %></li>
@@ -7,3 +8,4 @@
     </ul>
   </div>
 <% end %>
+</div>

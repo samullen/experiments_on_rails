@@ -54,7 +54,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.9.0)
-    database_cleaner (1.4.0)
     erubis (2.7.0)
     execjs (2.3.0)
     factory_girl (4.5.0)
@@ -201,7 +200,6 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.1.0)
-  database_cleaner (~> 1.4.0)
   factory_girl_rails (~> 4.5.0)
   guard (~> 2.12.1)
   guard-minitest (~> 2.4.4)
